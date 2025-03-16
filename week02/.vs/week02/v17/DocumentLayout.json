@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dlghw\\source\\repos\\week02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88DBFA8A-748A-451D-AEB9-1B87C8F08783}|week02\\week02.vcxproj|C:\\Users\\dlghw\\source\\repos\\week02\\week02\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88DBFA8A-748A-451D-AEB9-1B87C8F08783}|week02\\week02.vcxproj|solutionrelative:week02\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DBFA8A-748A-451D-AEB9-1B87C8F08783}|week02\\week02.vcxproj|C:\\Users\\dlghw\\source\\repos\\week02\\week02\\week02.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88DBFA8A-748A-451D-AEB9-1B87C8F08783}|week02\\week02.vcxproj|solutionrelative:week02\\week02.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DBFA8A-748A-451D-AEB9-1B87C8F08783}|week02\\week02.vcxproj|C:\\Users\\dlghw\\source\\repos\\week02\\week02\\week02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88DBFA8A-748A-451D-AEB9-1B87C8F08783}|week02\\week02.vcxproj|solutionrelative:week02\\week02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "week02.h",
+              "DocumentMoniker": "C:\\Users\\dlghw\\source\\repos\\week02\\week02\\week02.h",
+              "RelativeDocumentMoniker": "week02\\week02.h",
+              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\week02\\week02\\week02.h",
+              "RelativeToolTip": "week02\\week02.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-16T07:50:38.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "week02.cpp",
+              "DocumentMoniker": "C:\\Users\\dlghw\\source\\repos\\week02\\week02\\week02.cpp",
+              "RelativeDocumentMoniker": "week02\\week02.cpp",
+              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\week02\\week02\\week02.cpp",
+              "RelativeToolTip": "week02\\week02.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-16T07:50:46.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\dlghw\\source\\repos\\week02\\week02\\main.cpp",
+              "RelativeDocumentMoniker": "week02\\main.cpp",
+              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\week02\\week02\\main.cpp",
+              "RelativeToolTip": "week02\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-16T07:50:33.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
