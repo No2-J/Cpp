@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|solutionrelative:lab02\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|solutionrelative:lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\f1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|solutionrelative:lab02\\f1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\lab02.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|solutionrelative:lab02\\lab02.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\f1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|solutionrelative:lab02\\f1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC388E72-713D-4ED9-8570-F505D438F75F}|lab02\\lab02.vcxproj|solutionrelative:lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "f1.cpp",
               "DocumentMoniker": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\f1.cpp",
               "RelativeDocumentMoniker": "lab02\\f1.cpp",
-              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\f1.cpp",
-              "RelativeToolTip": "lab02\\f1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\f1.cpp*",
+              "RelativeToolTip": "lab02\\f1.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T02:58:02.481Z",
               "EditorCaption": ""
@@ -53,20 +53,20 @@
               "RelativeDocumentMoniker": "lab02\\lab02.h",
               "ToolTip": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\lab02.h",
               "RelativeToolTip": "lab02\\lab02.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-19T02:04:30.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "lab02.cpp",
               "DocumentMoniker": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\lab02.cpp",
               "RelativeDocumentMoniker": "lab02\\lab02.cpp",
               "ToolTip": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\lab02.cpp",
               "RelativeToolTip": "lab02\\lab02.cpp",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAiwEYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T02:04:21.854Z",
               "EditorCaption": ""
@@ -77,9 +77,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\main.cpp",
               "RelativeDocumentMoniker": "lab02\\main.cpp",
-              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\main.cpp",
-              "RelativeToolTip": "lab02\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dlghw\\source\\repos\\lab02\\lab02\\main.cpp*",
+              "RelativeToolTip": "lab02\\main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T02:04:18.997Z",
               "EditorCaption": ""

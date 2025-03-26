@@ -78,7 +78,7 @@ void runRussianRoullete() {
 	cin.ignore();
 
 	int bang = russianRoullete(nTurns, nBullets);
-	cout << "\n\nNO of Rounds : " << bang << endl;
+	cout << "\n\nNO of Player : " << bang << endl;
 }
 
 /////////////////////////////////////////////////////

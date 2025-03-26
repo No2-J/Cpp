@@ -4,6 +4,9 @@ extern int var;
 extern void displayVar();
 
 int main() {
-	runRussianRoullete();
+	//runRussianRoullete();
+	//playGugu();
+	playTossCoin();
+
 	return 0;
 }
