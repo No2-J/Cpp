@@ -40,7 +40,7 @@ static void display() {
 	clock_t	t1 = clock();
 	double d = (double)(t1 - tStart) / CLOCKS_PER_SEC;
 	cout << "\n\t Number of moves " << nMove;
-	cout << "\n\t The time takena " << d << "\n\n";
+	cout << "\n\t The time taken " << d << "\n\n";
 
 }
 static bool move(int dir) {
@@ -103,9 +103,11 @@ int playFifteenPuzzle() {
 	clock_t t1 = clock();
 	double t = (double)(t1 - tStart) / CLOCKS_PER_SEC;
 	//return addRanking(nMove, t);
-	int rank = addRanking(nMove, t);
-	cout << "Your rank : " << rank << endl;
+	int rank = findRanking(nMove, t);
+	cout << "Your rank is " << rank << endl;
+	addRanking(nMove, t);
 	printRanking();
 	storeRanking("ranking.txt");
-	return addRanking(nMove, t);
+
+	return 0;
 }

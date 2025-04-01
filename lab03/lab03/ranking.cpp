@@ -59,8 +59,18 @@ int addRanking(int nMove, double tElap) {
 		}
 		MVP[pos].nMove = nMove;
 		MVP[pos].tElapsed = tElap;
-		cout << "Name at :  " << pos + 1 << "  ";
+		cout << "Your Name? :  " << "  ";
 		cin >> MVP[pos].name;
+		return pos + 1;
+	}
+	return 0;
+}
+int findRanking(int nMove, double tElap) {
+	if (nMove < MVP[nMVP - 1].nMove) {
+		int pos = nMVP - 1;
+		for (; pos > 0; pos--) {
+			if (nMove >= MVP[pos - 1].nMove) break;
+		}
 		return pos + 1;
 	}
 	return 0;

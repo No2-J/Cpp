@@ -16,3 +16,4 @@ void loadRanking(const string);
 void storeRanking(const string);
 void printRanking();
 int addRanking(int nMove, double tElapsed);
+int findRanking(int nMove, double tElapsed);
