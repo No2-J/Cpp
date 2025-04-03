@@ -1,6 +1,6 @@
 #include "puzzle15.h"
 #include "ranking.h"
-#define DIM 5
+#define DIM 4
 
 //enum Direction { Left = 75, Right = 77, Up = 72, Down = 80 };
 static const int Left = 75;
