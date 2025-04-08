@@ -19,3 +19,13 @@ struct Player {
 	bool attack(Player& opponent, int r, int c);
 	bool isGameOver();
 };
+struct CPU {
+	char board[SIZE][SIZE];
+	char display[SIZE][SIZE];
+
+	void initialize();
+	void printBoard(bool hideShips = false);
+	void placeShips(bool isPlayer);
+	bool attack(Player& opponent, int r, int c);
+	bool isGameOver();
+};

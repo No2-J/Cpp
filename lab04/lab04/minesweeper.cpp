@@ -104,8 +104,9 @@ void playMineSweeper() {
         int row, col;
         char action;
 
-        cout << "Action : (r rc), (f r c)";
+        cout << "Action : (r r c), (f r c)";
         cin >> action >> row >> col;
+
         if(action=='r'){
             if (board[row][col].isMine) {
                 cout << "You Hit the mine.. Game Over\n";

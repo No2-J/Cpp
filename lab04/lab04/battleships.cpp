@@ -36,6 +36,12 @@ void PlayGame(Player& player, Player& cpu) {
             cout << "You Won\n";
             break;
         }
+        //CPU turn
+        cpuAttack(player);
+        if (player.isGameOver()) {
+            cout << "You lost" << endl;
+            break;
+        }
     }
 }
 
@@ -50,7 +56,7 @@ void runBattleShips() {
     player.placeShips(true);
     
     cout << "\nCPU is placing ships... \n";
-    cpu.placeShips(true);
+    cpu.placeShips(false);
 
     PlayGame(player, cpu);
 }

@@ -4,5 +4,6 @@
 
 int main() {
 	runBattleShips();
+	//playMineSweeper();
 	return 0;
 }

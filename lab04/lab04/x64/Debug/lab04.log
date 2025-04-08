@@ -1,6 +1,5 @@
-﻿  battleships.cpp
-C:\Users\dlghw\source\repos\lab04\lab04\battleships.cpp(43,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  main.cpp
-  player.cpp
+﻿  main.cpp
+  minesweeper.cpp
+C:\Users\dlghw\source\repos\lab04\lab04\minesweeper.cpp(19,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
 LINK : fatal error LNK1168: C:\Users\dlghw\source\repos\lab04\x64\Debug\lab04.exe을(를) 쓰기용으로 열 수 없습니다.
