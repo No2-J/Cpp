@@ -1,0 +1,19 @@
+﻿  main.cpp
+  week06.cpp
+  코드를 생성하고 있습니다...
+C:\Users\dlghw\source\repos\week06\week06\week06.cpp(26,39): error C2572: 'Complex1::read': 기본 인수 재정의. 매개 변수 1
+      C:\Users\dlghw\source\repos\week06\week06\week06.h(27,7):
+      'Complex1::read' 선언을 참조하십시오.
+  
+C:\Users\dlghw\source\repos\week06\week06\week06.cpp(31,40): error C2572: 'Complex1::print': 기본 인수 재정의. 매개 변수 1
+      C:\Users\dlghw\source\repos\week06\week06\week06.h(28,7):
+      'Complex1::print' 선언을 참조하십시오.
+  
+C:\Users\dlghw\source\repos\week06\week06\week06.cpp(36,16): error C2556: 'void Complex1::add(Complex1,Complex1)': 오버로드된 함수가 'Complex1 Complex1::add(Complex1,Complex1)'과(와) 반환 형식만 다릅니다.
+      C:\Users\dlghw\source\repos\week06\week06\week06.h(29,11):
+      'Complex1::add' 선언을 참조하십시오.
+  
+C:\Users\dlghw\source\repos\week06\week06\week06.cpp(36,16): error C2371: 'Complex1::add': 재정의. 기본 형식이 다릅니다.
+      C:\Users\dlghw\source\repos\week06\week06\week06.h(29,11):
+      'Complex1::add' 선언을 참조하십시오.
+  
