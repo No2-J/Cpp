@@ -9,14 +9,16 @@ const int DIM = 10; // 10X10
 class Cell;
 class Panel;
 class MineSweeper;
+
 class Cell {
 private:
-    bool isMine, isRevealed;
+    bool isMine, isRevealed, isFlagged;
     int adjMines;
 public:
     void init() {
         isMine = false;
         isRevealed = false;
+        isFlagged = false;
         adjMines = 0;
     }
     void placeMine() {
@@ -30,12 +32,16 @@ public:
         isRevealed = true;
         return !isMine;
     }
+    void toggleFlag(){
+        if (!isRevealed) // ÀÌ¹Ì ¿­¸° Ä­¿¡´Â ±ê¹ß ¸ø ²È°Ô
+            isFlagged = !isFlagged;
+    }
     bool mine() const { return isMine; }
+    bool flagged() const { return isFlagged; }
     bool revealed() const { return isRevealed; }
     int getAdjMines() const { return adjMines; }
-
 };
-//cell class end
+
 class Panel {
 private:
     int rows, cols, totalMines;
@@ -52,6 +58,10 @@ public:
             for (int j = 0; j < cols; ++j)
                 grid[i][j].init();
         placeMines();
+    }
+    void flagCell(int r, int c) {
+        if (isValid(r, c))
+            grid[r][c].toggleFlag();
     }
     void placeMines() {
         int placed = 0;
@@ -86,6 +96,9 @@ public:
                     else
                         cout << grid[i][j].getAdjMines() << " ";
                 }
+                else if (grid[i][j].flagged()) {
+                    cout << "F ";
+                }
                 else {
                     cout << ". ";
                 }
@@ -114,10 +127,11 @@ public:
         return count == (rows * cols - totalMines);
     }
 };
-//panel class end
+
 class MineSweeper {
 private:
     Panel board;
+    Cell grid[DIM][DIM];
     int rows, cols, mines;
     bool gameOver;
 public:
@@ -132,19 +146,24 @@ public:
         while (!gameOver) {
             board.display();
             int x, y;
-            cout << "Enter coordinates to reveal (row col): ";
-            cin >> x >> y;
-            if (!board.revealCell(x, y)) {
-                cout << "BOOM! You hit a mine!\n";
-                board.display(true);
-                gameOver = true;
+            char action;
+            cout << "Enter coordinates to reveal (r r c), (f r c) : ";
+            cin >> action >> x >> y;
+            if (action == 'r') {
+                if (!board.revealCell(x, y)) {
+                    cout << "BOOM! You hit a mine!\n";
+                    board.display(true);
+                    gameOver = true;
+                }
+                else if (board.isWon()) {
+                    cout << "You won! All safe cells revealed.\n";
+                    board.display(true);
+                    gameOver = true;
+                }
             }
-            else if (board.isWon()) {
-                cout << "You won! All safe cells revealed.\n";
-                board.display(true);
-                gameOver = true;
+            else if (action == 'f') {
+                board.flagCell(x, y);
             }
         }
     }
 };
-//minesweeper class end

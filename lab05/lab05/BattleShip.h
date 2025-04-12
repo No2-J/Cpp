@@ -33,7 +33,7 @@ private:
     char grid[SIZE][SIZE];
     Ship ships[NUM_SHIPS];
 public:
-    void init() { //√ ±‚»≠
+    void init() { 
         for (int i = 0; i < SIZE; ++i)
             for (int j = 0; j < SIZE; ++j)
                 grid[i][j] = '~';
@@ -93,7 +93,6 @@ public:
     }
 
 };
-//Board class end
 
 class Player {
 private:
@@ -169,7 +168,6 @@ public:
     }
 
 };
-//Player class end
 
 class BattleShip {
 private:
@@ -202,4 +200,3 @@ public:
     }
 
 };
-//BattleShip class end

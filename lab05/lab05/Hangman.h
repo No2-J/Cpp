@@ -7,9 +7,10 @@
 #include<fstream>
 using namespace std;
 class Hangman;
+
 class Hangman {
 private:
-    string progress[64];
+    string progress[72];
     string problem = "";
     string answer = "";
     string guessed = "";
@@ -19,8 +20,8 @@ public:
     void load(const char* progName = "HangmanProgress.txt") {
         ifstream fin(progName);
         if (fin) {
-            getline(fin, progress[0]);
-            for (int i = 0; i < 64; i++)
+            //getline(fin, progress[0]);
+            for (int i = 0; i < 72; i++)
                 getline(fin, progress[i]);
         }
     }

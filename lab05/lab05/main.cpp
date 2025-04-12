@@ -19,13 +19,14 @@ void tstHangman() {
 void tstMineSweeper() {
     srand(time(0));
     MineSweeper game;
-    game.init(10, 10, 15);
+    game.init(10, 10, 5);
     game.play();
 }
 int main()
 {
-    //dtstBattleShip(); 
+    //tstBattleShip(); 
     tstHangman();
     //tstMineSweeper();
+
     return 0;
 }
