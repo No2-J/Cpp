@@ -24,7 +24,7 @@ void PlayGame(Player& player, Player& cpu) {
         //Player turn 
         cout << "\nYour Board : \n";
         player.printBoard();
-        cout << "\nCPU board (hidden ships) : \n";
+        cout << "\nCPU Board (hidden ships) : \n";
         cpu.printBoard(true);
 
         cout << "Enter attack coordinates (row col) : ";
@@ -34,12 +34,20 @@ void PlayGame(Player& player, Player& cpu) {
 
         if (cpu.isGameOver()) {
             cout << "You Won\n";
+            cout << "\nYour Board : \n";
+            player.printBoard();
+            cout << "\nCPU Board : \n";
+            cpu.printBoard(true);
             break;
         }
         //CPU turn
         cpuAttack(player);
         if (player.isGameOver()) {
             cout << "You lost" << endl;
+            cout << "\nYour Board : \n";
+            player.printBoard();
+            cout << "\nCPU Board : \n";
+            cpu.printBoard(true);
             break;
         }
     }

@@ -1,6 +1,3 @@
-﻿  코드를 생성하고 있습니다.
-  12 of 22 functions (54.5%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
-  코드를 생성했습니다.
-  lab04.vcxproj -> C:\Users\dlghw\source\repos\lab04\x64\Release\lab04.exe
+﻿  battleships.cpp
+C:\Users\dlghw\source\repos\lab04\lab04\battleships.cpp(57,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+LINK : fatal error LNK1104: 'C:\Users\dlghw\source\repos\lab04\x64\Release\lab04.exe' 파일을 열 수 없습니다.
