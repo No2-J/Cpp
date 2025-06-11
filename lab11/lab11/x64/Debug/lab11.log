@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\dlghw\source\repos\lab11\lab11\Matrix.h(89,5): warning C4101: 't' :참조되지 않은 지역 변수입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\dlghw\source\repos\lab11\lab11\Matrix.h(89,5):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\dlghw\source\repos\lab11\lab11\lab11.h(32,20):
+          컴파일되는 클래스 템플릿 인스턴스화 'Matrix<double>'에 대한 참조를 확인하세요.
+          C:\Users\dlghw\source\repos\lab11\lab11\Matrix.h(88,12):
+          클래스 템플릿 멤버 함수 'Matrix<double> Matrix<double>::operator *(const Matrix<double> &)'을(를) 컴파일하는 중입니다.
+              C:\Users\dlghw\source\repos\lab11\lab11\lab11.h(42,22):
+              'tstMatrix02'에서 'Matrix<double>::operator *'에 대한 첫 번째 참조를 확인하세요.
+  
+  lab11.vcxproj -> C:\Users\dlghw\source\repos\lab11\x64\Debug\lab11.exe
